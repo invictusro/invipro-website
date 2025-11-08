@@ -1,0 +1,487 @@
+0 verbose cli /opt/homebrew/Cellar/node@20/20.19.3/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.3
+3 silly config load:file:/opt/homebrew/Cellar/node@20/20.19.3/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/invictus/Desktop/devwebsite/.npmrc
+5 silly config load:file:/Users/invictus/.npmrc
+6 silly config load:file:/Users/invictus/.npm-global/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/Users/invictus/Desktop/devwebsite/.npm-cache/_logs/2025-11-08T13_26_06_970Z-
+10 verbose logfile /Users/invictus/Desktop/devwebsite/.npm-cache/_logs/2025-11-08T13_26_06_970Z-debug-0.log
+11 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest next@14.1.0
+16 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/next 386ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/next set size:undefined disposed:false
+19 silly fetch manifest @opentelemetry/api@^1.1.0
+20 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 86ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+23 silly fetch manifest react@18.2.0
+24 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/react 146ms (cache miss)
+26 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+27 silly fetch manifest react-dom@18.2.0
+28 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react-dom 159ms (cache miss)
+30 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+31 silly fetch manifest sass@^1.3.0
+32 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/sass 52ms (cache miss)
+34 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+35 silly fetch manifest @types/node@20.11.0
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 169ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+39 silly fetch manifest @types/react@18.2.48
+40 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@types%2freact 79ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+43 silly fetch manifest @types/react-dom@18.2.18
+44 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 52ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom set size:undefined disposed:false
+47 silly fetch manifest typescript@5.3.3
+48 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/typescript 213ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+51 silly placeDep ROOT @types/node@20.11.0 OK for: invictus-pro@1.0.0 want: 20.11.0
+52 silly placeDep ROOT @types/react@18.2.48 OK for: invictus-pro@1.0.0 want: 18.2.48
+53 silly placeDep ROOT @types/react-dom@18.2.18 OK for: invictus-pro@1.0.0 want: 18.2.18
+54 silly placeDep ROOT next@14.1.0 OK for: invictus-pro@1.0.0 want: 14.1.0
+55 silly placeDep ROOT react@18.2.0 OK for: next@14.1.0 want: ^18.2.0
+56 silly placeDep ROOT react-dom@18.2.0 OK for: next@14.1.0 want: ^18.2.0
+57 silly placeDep ROOT typescript@5.3.3 OK for: invictus-pro@1.0.0 want: 5.3.3
+58 silly fetch manifest undici-types@~5.26.4
+59 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+60 silly fetch manifest csstype@^3.0.2
+61 silly packumentCache full:https://registry.npmjs.org/csstype cache-miss
+62 silly fetch manifest @types/scheduler@*
+63 silly packumentCache full:https://registry.npmjs.org/@types%2fscheduler cache-miss
+64 silly fetch manifest @types/prop-types@*
+65 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types cache-miss
+66 silly fetch manifest busboy@1.6.0
+67 silly packumentCache full:https://registry.npmjs.org/busboy cache-miss
+68 silly fetch manifest postcss@8.4.31
+69 silly packumentCache full:https://registry.npmjs.org/postcss cache-miss
+70 silly fetch manifest @next/env@14.1.0
+71 silly packumentCache full:https://registry.npmjs.org/@next%2fenv cache-miss
+72 silly fetch manifest styled-jsx@5.1.1
+73 silly packumentCache full:https://registry.npmjs.org/styled-jsx cache-miss
+74 silly fetch manifest graceful-fs@^4.2.11
+75 silly packumentCache full:https://registry.npmjs.org/graceful-fs cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/undici-types 35ms (cache miss)
+77 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+78 silly fetch manifest @swc/helpers@0.5.2
+79 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+80 http fetch GET 200 https://registry.npmjs.org/csstype 104ms (cache miss)
+81 silly packumentCache full:https://registry.npmjs.org/csstype set size:undefined disposed:false
+82 silly fetch manifest caniuse-lite@^1.0.30001579
+83 silly packumentCache full:https://registry.npmjs.org/caniuse-lite cache-miss
+84 http fetch GET 200 https://registry.npmjs.org/graceful-fs 134ms (cache miss)
+85 silly packumentCache full:https://registry.npmjs.org/graceful-fs set size:undefined disposed:false
+86 silly fetch manifest @next/swc-darwin-x64@14.1.0
+87 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+88 http fetch GET 200 https://registry.npmjs.org/styled-jsx 136ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/styled-jsx set size:undefined disposed:false
+90 silly fetch manifest @next/swc-darwin-arm64@14.1.0
+91 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+92 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 105ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+94 silly fetch manifest @next/swc-linux-x64-gnu@14.1.0
+95 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+96 http fetch GET 200 https://registry.npmjs.org/@types%2fprop-types 146ms (cache miss)
+97 silly packumentCache full:https://registry.npmjs.org/@types%2fprop-types set size:undefined disposed:false
+98 silly fetch manifest @next/swc-linux-x64-musl@14.1.0
+99 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+100 http fetch GET 200 https://registry.npmjs.org/busboy 148ms (cache miss)
+101 silly packumentCache full:https://registry.npmjs.org/busboy set size:undefined disposed:false
+102 silly fetch manifest @next/swc-win32-x64-msvc@14.1.0
+103 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc cache-miss
+104 http fetch GET 200 https://registry.npmjs.org/postcss 161ms (cache miss)
+105 silly packumentCache full:https://registry.npmjs.org/postcss set size:undefined disposed:false
+106 silly fetch manifest @next/swc-linux-arm64-gnu@14.1.0
+107 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/caniuse-lite 94ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/caniuse-lite set size:undefined disposed:false
+110 silly fetch manifest @next/swc-win32-ia32-msvc@14.1.0
+111 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/@types%2fscheduler 211ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/@types%2fscheduler set size:undefined disposed:false
+114 silly fetch manifest @next/swc-linux-arm64-musl@14.1.0
+115 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+116 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 358ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:undefined disposed:false
+118 silly fetch manifest @next/swc-win32-arm64-msvc@14.1.0
+119 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+120 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 458ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:undefined disposed:false
+122 silly fetch manifest scheduler@^0.23.0
+123 silly packumentCache full:https://registry.npmjs.org/scheduler cache-miss
+124 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 609ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:undefined disposed:false
+126 silly fetch manifest loose-envify@^1.1.0
+127 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+128 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 610ms (cache miss)
+129 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-x64-msvc set size:undefined disposed:false
+130 silly fetch manifest loose-envify@^1.1.0
+131 silly packumentCache full:https://registry.npmjs.org/loose-envify cache-miss
+132 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 663ms (cache miss)
+133 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:undefined disposed:false
+134 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 880ms (cache miss)
+135 silly packumentCache full:https://registry.npmjs.org/@next%2fenv set size:undefined disposed:false
+136 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc 695ms (cache miss)
+137 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-ia32-msvc set size:undefined disposed:false
+138 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 453ms (cache miss)
+139 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:undefined disposed:false
+140 http fetch GET 200 https://registry.npmjs.org/loose-envify 225ms (cache miss)
+141 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+142 http fetch GET 200 https://registry.npmjs.org/loose-envify 207ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/loose-envify set size:undefined disposed:false
+144 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 781ms (cache miss)
+145 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:undefined disposed:false
+146 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 898ms (cache miss)
+147 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:undefined disposed:false
+148 http fetch GET 200 https://registry.npmjs.org/scheduler 462ms (cache miss)
+149 silly packumentCache full:https://registry.npmjs.org/scheduler set size:undefined disposed:false
+150 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.11.0 want: ~5.26.4
+151 silly placeDep ROOT @types/prop-types@15.7.15 OK for: @types/react@18.2.48 want: *
+152 silly placeDep ROOT @types/scheduler@0.26.0 OK for: @types/react@18.2.48 want: *
+153 silly placeDep ROOT csstype@3.1.3 OK for: @types/react@18.2.48 want: ^3.0.2
+154 silly fetch manifest react@^18.2.0
+155 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+156 http fetch GET 200 https://registry.npmjs.org/react 8ms (cache hit)
+157 silly packumentCache full:https://registry.npmjs.org/react set size:6240403 disposed:false
+158 silly placeDep ROOT @next/env@14.1.0 OK for: next@14.1.0 want: 14.1.0
+159 silly placeDep ROOT @next/swc-darwin-arm64@14.1.0 OK for: next@14.1.0 want: 14.1.0
+160 silly placeDep ROOT @next/swc-darwin-x64@14.1.0 OK for: next@14.1.0 want: 14.1.0
+161 silly placeDep ROOT @next/swc-linux-arm64-gnu@14.1.0 OK for: next@14.1.0 want: 14.1.0
+162 silly placeDep ROOT @next/swc-linux-arm64-musl@14.1.0 OK for: next@14.1.0 want: 14.1.0
+163 silly placeDep ROOT @next/swc-linux-x64-gnu@14.1.0 OK for: next@14.1.0 want: 14.1.0
+164 silly placeDep ROOT @next/swc-linux-x64-musl@14.1.0 OK for: next@14.1.0 want: 14.1.0
+165 silly placeDep ROOT @next/swc-win32-arm64-msvc@14.1.0 OK for: next@14.1.0 want: 14.1.0
+166 silly placeDep ROOT @next/swc-win32-ia32-msvc@14.1.0 OK for: next@14.1.0 want: 14.1.0
+167 silly placeDep ROOT @next/swc-win32-x64-msvc@14.1.0 OK for: next@14.1.0 want: 14.1.0
+168 silly placeDep ROOT @swc/helpers@0.5.2 OK for: next@14.1.0 want: 0.5.2
+169 silly placeDep ROOT busboy@1.6.0 OK for: next@14.1.0 want: 1.6.0
+170 silly placeDep ROOT caniuse-lite@1.0.30001754 OK for: next@14.1.0 want: ^1.0.30001579
+171 silly placeDep ROOT graceful-fs@4.2.11 OK for: next@14.1.0 want: ^4.2.11
+172 silly placeDep ROOT postcss@8.4.31 OK for: next@14.1.0 want: 8.4.31
+173 silly placeDep ROOT styled-jsx@5.1.1 OK for: next@14.1.0 want: 5.1.1
+174 silly fetch manifest tslib@^2.4.0
+175 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+176 silly fetch manifest streamsearch@^1.1.0
+177 silly packumentCache full:https://registry.npmjs.org/streamsearch cache-miss
+178 silly fetch manifest nanoid@^3.3.6
+179 silly packumentCache full:https://registry.npmjs.org/nanoid cache-miss
+180 silly fetch manifest picocolors@^1.0.0
+181 silly packumentCache full:https://registry.npmjs.org/picocolors cache-miss
+182 silly fetch manifest source-map-js@^1.0.2
+183 silly packumentCache full:https://registry.npmjs.org/source-map-js cache-miss
+184 silly fetch manifest client-only@0.0.1
+185 silly packumentCache full:https://registry.npmjs.org/client-only cache-miss
+186 http fetch GET 200 https://registry.npmjs.org/client-only 45ms (cache miss)
+187 silly packumentCache full:https://registry.npmjs.org/client-only set size:undefined disposed:false
+188 http fetch GET 200 https://registry.npmjs.org/source-map-js 45ms (cache miss)
+189 silly packumentCache full:https://registry.npmjs.org/source-map-js set size:undefined disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/picocolors 45ms (cache miss)
+191 silly packumentCache full:https://registry.npmjs.org/picocolors set size:undefined disposed:false
+192 http fetch GET 200 https://registry.npmjs.org/nanoid 46ms (cache miss)
+193 silly packumentCache full:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+194 http fetch GET 200 https://registry.npmjs.org/streamsearch 58ms (cache miss)
+195 silly packumentCache full:https://registry.npmjs.org/streamsearch set size:undefined disposed:false
+196 http fetch GET 200 https://registry.npmjs.org/tslib 58ms (cache miss)
+197 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+198 silly placeDep ROOT tslib@2.8.1 OK for: @swc/helpers@0.5.2 want: ^2.4.0
+199 silly placeDep ROOT streamsearch@1.1.0 OK for: busboy@1.6.0 want: ^1.1.0
+200 silly placeDep ROOT nanoid@3.3.11 OK for: postcss@8.4.31 want: ^3.3.6
+201 silly placeDep ROOT picocolors@1.1.1 OK for: postcss@8.4.31 want: ^1.0.0
+202 silly placeDep ROOT source-map-js@1.2.1 OK for: postcss@8.4.31 want: ^1.0.2
+203 silly placeDep ROOT loose-envify@1.4.0 OK for: react@18.2.0 want: ^1.1.0
+204 silly fetch manifest js-tokens@^3.0.0 || ^4.0.0
+205 silly packumentCache full:https://registry.npmjs.org/js-tokens cache-miss
+206 http fetch GET 200 https://registry.npmjs.org/js-tokens 37ms (cache miss)
+207 silly packumentCache full:https://registry.npmjs.org/js-tokens set size:undefined disposed:false
+208 silly placeDep ROOT js-tokens@4.0.0 OK for: loose-envify@1.4.0 want: ^3.0.0 || ^4.0.0
+209 silly placeDep ROOT scheduler@0.23.2 OK for: react-dom@18.2.0 want: ^0.23.0
+210 silly placeDep ROOT client-only@0.0.1 OK for: styled-jsx@5.1.1 want: 0.0.1
+211 silly reify moves {}
+212 silly audit bulk request {
+212 silly audit   '@types/node': [ '20.11.0' ],
+212 silly audit   '@types/react': [ '18.2.48' ],
+212 silly audit   '@types/react-dom': [ '18.2.18' ],
+212 silly audit   next: [ '14.1.0' ],
+212 silly audit   react: [ '18.2.0' ],
+212 silly audit   'react-dom': [ '18.2.0' ],
+212 silly audit   typescript: [ '5.3.3' ],
+212 silly audit   'undici-types': [ '5.26.5' ],
+212 silly audit   '@types/prop-types': [ '15.7.15' ],
+212 silly audit   '@types/scheduler': [ '0.26.0' ],
+212 silly audit   csstype: [ '3.1.3' ],
+212 silly audit   '@next/env': [ '14.1.0' ],
+212 silly audit   '@next/swc-darwin-arm64': [ '14.1.0' ],
+212 silly audit   '@next/swc-darwin-x64': [ '14.1.0' ],
+212 silly audit   '@next/swc-linux-arm64-gnu': [ '14.1.0' ],
+212 silly audit   '@next/swc-linux-arm64-musl': [ '14.1.0' ],
+212 silly audit   '@next/swc-linux-x64-gnu': [ '14.1.0' ],
+212 silly audit   '@next/swc-linux-x64-musl': [ '14.1.0' ],
+212 silly audit   '@next/swc-win32-arm64-msvc': [ '14.1.0' ],
+212 silly audit   '@next/swc-win32-ia32-msvc': [ '14.1.0' ],
+212 silly audit   '@next/swc-win32-x64-msvc': [ '14.1.0' ],
+212 silly audit   '@swc/helpers': [ '0.5.2' ],
+212 silly audit   busboy: [ '1.6.0' ],
+212 silly audit   'caniuse-lite': [ '1.0.30001754' ],
+212 silly audit   'graceful-fs': [ '4.2.11' ],
+212 silly audit   postcss: [ '8.4.31' ],
+212 silly audit   'styled-jsx': [ '5.1.1' ],
+212 silly audit   tslib: [ '2.8.1' ],
+212 silly audit   streamsearch: [ '1.1.0' ],
+212 silly audit   nanoid: [ '3.3.11' ],
+212 silly audit   picocolors: [ '1.1.1' ],
+212 silly audit   'source-map-js': [ '1.2.1' ],
+212 silly audit   'loose-envify': [ '1.4.0' ],
+212 silly audit   'js-tokens': [ '4.0.0' ],
+212 silly audit   scheduler: [ '0.23.2' ],
+212 silly audit   'client-only': [ '0.0.1' ]
+212 silly audit }
+213 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-x64-msvc
+214 silly reify mark deleted [
+214 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-x64-msvc'
+214 silly reify ]
+215 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-ia32-msvc
+216 silly reify mark deleted [
+216 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-ia32-msvc'
+216 silly reify ]
+217 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-arm64-msvc
+218 silly reify mark deleted [
+218 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-win32-arm64-msvc'
+218 silly reify ]
+219 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-x64-musl
+220 silly reify mark deleted [
+220 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-x64-musl'
+220 silly reify ]
+221 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-x64-gnu
+222 silly reify mark deleted [
+222 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-x64-gnu'
+222 silly reify ]
+223 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-arm64-musl
+224 silly reify mark deleted [
+224 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-arm64-musl'
+224 silly reify ]
+225 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-arm64-gnu
+226 silly reify mark deleted [
+226 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-linux-arm64-gnu'
+226 silly reify ]
+227 verbose reify failed optional dependency /Users/invictus/Desktop/devwebsite/node_modules/@next/swc-darwin-x64
+228 silly reify mark deleted [
+228 silly reify   '/Users/invictus/Desktop/devwebsite/node_modules/@next/swc-darwin-x64'
+228 silly reify ]
+229 silly tarball no local data for scheduler@https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz. Extracting by manifest.
+230 silly tarball no local data for js-tokens@https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz. Extracting by manifest.
+231 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+232 silly tarball no local data for client-only@https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz. Extracting by manifest.
+233 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+234 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+235 silly tarball no local data for styled-jsx@https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz. Extracting by manifest.
+236 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz. Extracting by manifest.
+237 silly tarball no local data for loose-envify@https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz. Extracting by manifest.
+238 silly tarball no local data for streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz. Extracting by manifest.
+239 silly tarball no local data for graceful-fs@https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz. Extracting by manifest.
+240 silly tarball no local data for caniuse-lite@https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001754.tgz. Extracting by manifest.
+241 silly tarball no local data for @next/swc-darwin-arm64@https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.0.tgz. Extracting by manifest.
+242 silly tarball no local data for busboy@https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz. Extracting by manifest.
+243 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-14.1.0.tgz. Extracting by manifest.
+244 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+245 silly tarball no local data for @types/scheduler@https://registry.npmjs.org/@types/scheduler/-/scheduler-0.26.0.tgz. Extracting by manifest.
+246 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+247 silly tarball no local data for csstype@https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz. Extracting by manifest.
+248 silly tarball no local data for react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz. Extracting by manifest.
+249 silly tarball no local data for react@https://registry.npmjs.org/react/-/react-18.2.0.tgz. Extracting by manifest.
+250 silly tarball no local data for @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.18.tgz. Extracting by manifest.
+251 silly tarball no local data for @types/prop-types@https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz. Extracting by manifest.
+252 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-14.1.0.tgz. Extracting by manifest.
+253 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.11.0.tgz. Extracting by manifest.
+254 silly tarball no local data for @types/react@https://registry.npmjs.org/@types/react/-/react-18.2.48.tgz. Extracting by manifest.
+255 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz. Extracting by manifest.
+256 silly tarball no local data for @swc/helpers@https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.2.tgz. Extracting by manifest.
+257 http fetch GET 200 https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz 39ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 41ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 50ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz 53ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 56ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz 67ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/styled-jsx/-/styled-jsx-5.1.1.tgz 71ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 72ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 86ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 86ms (cache miss)
+267 http fetch GET 200 https://registry.npmjs.org/csstype/-/csstype-3.1.3.tgz 106ms (cache miss)
+268 http fetch GET 200 https://registry.npmjs.org/react/-/react-18.2.0.tgz 123ms (cache miss)
+269 http fetch GET 200 https://registry.npmjs.org/@types/scheduler/-/scheduler-0.26.0.tgz 163ms (cache miss)
+270 http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 180ms (cache miss)
+271 http fetch GET 200 https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.15.tgz 209ms (cache miss)
+272 http fetch GET 200 https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz 213ms (cache miss)
+273 http fetch GET 200 https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz 214ms (cache miss)
+274 http fetch GET 200 https://registry.npmjs.org/@types/react-dom/-/react-dom-18.2.18.tgz 220ms (cache miss)
+275 http fetch GET 200 https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.2.11.tgz 239ms (cache miss)
+276 http fetch GET 200 https://registry.npmjs.org/@types/react/-/react-18.2.48.tgz 333ms (cache miss)
+277 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 386ms
+278 silly audit report {
+278 silly audit report   next: [
+278 silly audit report     {
+278 silly audit report       id: 1099638,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+278 silly audit report       title: 'Next.js Cache Poisoning',
+278 silly audit report       severity: 'high',
+278 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1100421,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+278 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+278 silly audit report       severity: 'moderate',
+278 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1101438,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+278 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+278 silly audit report       severity: 'moderate',
+278 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1105461,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-3h52-269p-cp9r',
+278 silly audit report       title: 'Information exposure in Next.js dev server due to lack of origin verification',
+278 silly audit report       severity: 'low',
+278 silly audit report       vulnerable_versions: '>=13.0 <14.2.30',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1107226,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-g5qg-72qw-gw5v',
+278 silly audit report       title: 'Next.js Affected by Cache Key Confusion for Image Optimization API Routes',
+278 silly audit report       severity: 'moderate',
+278 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1107420,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+278 silly audit report       title: 'Next.js authorization bypass vulnerability',
+278 silly audit report       severity: 'high',
+278 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1107512,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-4342-x723-ch2f',
+278 silly audit report       title: 'Next.js Improper Middleware Redirect Handling Leads to SSRF',
+278 silly audit report       severity: 'moderate',
+278 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.32',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1107513,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-xv57-4mr9-wg8v',
+278 silly audit report       title: 'Next.js Content Injection Vulnerability for Image Optimization',
+278 silly audit report       severity: 'moderate',
+278 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.31',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1108291,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-qpjv-v59x-3qc4',
+278 silly audit report       title: 'Next.js Race Condition to Cache Poisoning',
+278 silly audit report       severity: 'low',
+278 silly audit report       vulnerable_versions: '>=0.9.9 <14.2.24',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1108953,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-f82v-jwr5-mffw',
+278 silly audit report       title: 'Authorization Bypass in Next.js Middleware',
+278 silly audit report       severity: 'critical',
+278 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.25',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     },
+278 silly audit report     {
+278 silly audit report       id: 1097295,
+278 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+278 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+278 silly audit report       severity: 'high',
+278 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+278 silly audit report       cwe: [Array],
+278 silly audit report       cvss: [Object]
+278 silly audit report     }
+278 silly audit report   ]
+278 silly audit report }
+279 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+280 http fetch GET 200 https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz 417ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001754.tgz 439ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/@swc/helpers/-/helpers-0.5.2.tgz 480ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.11.0.tgz 558ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-14.1.0.tgz 785ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/next 761ms (cache miss)
+286 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+287 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz 1859ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/next/-/next-14.1.0.tgz 5395ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-14.1.0.tgz 5999ms (cache miss)
+290 silly ADD node_modules/client-only
+291 silly ADD node_modules/scheduler
+292 silly ADD node_modules/js-tokens
+293 silly ADD node_modules/loose-envify
+294 silly ADD node_modules/source-map-js
+295 silly ADD node_modules/picocolors
+296 silly ADD node_modules/nanoid
+297 silly ADD node_modules/streamsearch
+298 silly ADD node_modules/tslib
+299 silly ADD node_modules/styled-jsx
+300 silly ADD node_modules/postcss
+301 silly ADD node_modules/graceful-fs
+302 silly ADD node_modules/caniuse-lite
+303 silly ADD node_modules/busboy
+304 silly ADD node_modules/@swc/helpers
+305 silly ADD
+306 silly ADD
+307 silly ADD
+308 silly ADD
+309 silly ADD
+310 silly ADD
+311 silly ADD
+312 silly ADD
+313 silly ADD node_modules/@next/swc-darwin-arm64
+314 silly ADD node_modules/@next/env
+315 silly ADD node_modules/csstype
+316 silly ADD node_modules/@types/scheduler
+317 silly ADD node_modules/@types/prop-types
+318 silly ADD node_modules/undici-types
+319 silly ADD node_modules/typescript
+320 silly ADD node_modules/react-dom
+321 silly ADD node_modules/react
+322 silly ADD node_modules/next
+323 silly ADD node_modules/@types/react-dom
+324 silly ADD node_modules/@types/react
+325 silly ADD node_modules/@types/node
+326 verbose cwd /Users/invictus/Desktop/devwebsite
+327 verbose os Darwin 24.5.0
+328 verbose node v20.19.3
+329 verbose npm  v10.8.2
+330 verbose exit 0
+331 info ok

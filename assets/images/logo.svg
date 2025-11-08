@@ -1,0 +1,39 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4d03f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8941e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="56" height="56" rx="4" fill="#000000"/>
+
+  <!-- Shield/Crown shape representing Invictus (Unconquered) -->
+  <path d="M28 8L12 16V26C12 35 18 42.5 28 46C38 42.5 44 35 44 26V16L28 8Z"
+        fill="url(#logoGrad)"
+        opacity="0.15"
+        filter="url(#glow)"/>
+
+  <!-- Inner "I" for Invictus -->
+  <rect x="25" y="18" width="6" height="20" rx="0.5" fill="url(#logoGrad)" filter="url(#glow)"/>
+
+  <!-- Top and bottom bars of "I" -->
+  <rect x="20" y="18" width="16" height="2" rx="0.5" fill="url(#logoGrad)" filter="url(#glow)"/>
+  <rect x="20" y="36" width="16" height="2" rx="0.5" fill="url(#logoGrad)" filter="url(#glow)"/>
+
+  <!-- Accent lines suggesting strength/victory -->
+  <path d="M16 22L20 26L16 30" stroke="url(#logoGrad)" stroke-width="1.5" stroke-linecap="square" opacity="0.5"/>
+  <path d="M40 22L36 26L40 30" stroke="url(#logoGrad)" stroke-width="1.5" stroke-linecap="square" opacity="0.5"/>
+
+  <!-- Border accent -->
+  <rect x="0.5" y="0.5" width="55" height="55" rx="3.5" stroke="url(#logoGrad)" stroke-opacity="0.2"/>
+</svg>
