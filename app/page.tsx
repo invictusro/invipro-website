@@ -347,7 +347,7 @@ export default function Home() {
 
           <div className="reveal" style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap', marginTop: '3rem', maxWidth: '600px', margin: '3rem auto 0' }}>
             <a
-              href="mailto:contact@invictuspro.com"
+              href="mailto:contact@invipro.dev"
               className="btn-cta"
               style={{ display: 'inline-flex', alignItems: 'center', gap: '0.75rem', flex: '1 1 auto', minWidth: '200px' }}
             >
@@ -355,7 +355,7 @@ export default function Home() {
               Email Me
             </a>
             <a
-              href="https://t.me/yourusername"
+              href="https://t.me/invictusproxies"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary"
