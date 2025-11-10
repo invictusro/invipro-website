@@ -160,6 +160,39 @@ export default function Home() {
                 Learn More on Telegram
               </a>
             </div>
+
+            {/* Premade Phone Automations */}
+            <div className="project-card reveal" style={{ gridColumn: '1 / -1' }}>
+              <div className="project-header">
+                <div className="project-badge">📱</div>
+                <div className="project-title-wrap">
+                  <h3>Premade Phone Automations</h3>
+                  <div className="project-platforms">
+                    <span className="platform-tag">Instagram</span>
+                    <span className="platform-tag">Threads</span>
+                    <span className="platform-tag">Reddit</span>
+                    <span className="platform-tag">X</span>
+                  </div>
+                </div>
+              </div>
+              <p className="project-desc">
+                Highly advanced automations already used by us and our customers.
+              </p>
+              <ul className="project-features">
+                <li>Advanced, undetectable methods (not Appium) for ban-proof automation</li>
+                <li>No experience needed, we guide you A to Z</li>
+                <li>Up to 150 accounts per iPhone or 32 Android</li>
+              </ul>
+              <a
+                href="https://t.me/phonefarms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+                style={{ marginTop: '1.5rem', display: 'inline-block' }}
+              >
+                Learn More on Telegram
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -186,6 +219,28 @@ export default function Home() {
                 <li style={{ padding: '0.4rem 0' }}>• Custom automations with custom features: following, posting, commenting with AI, you name it</li>
                 <li style={{ padding: '0.4rem 0' }}>• Auto-posting, account workflows, engagement, and data extraction</li>
                 <li style={{ padding: '0.4rem 0' }}>• Custom API integrations and orchestration</li>
+              </ul>
+              <a
+                href="https://t.me/phonefarms"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+                style={{ marginTop: '1.5rem', display: 'inline-block' }}
+              >
+                Learn More on Telegram
+              </a>
+            </div>
+
+            <div className="card reveal">
+              <div className="card-icon">🍎</div>
+              <h3>iOS Tweaks Guides</h3>
+              <p>
+                Unlock the full potential of your iPhone with our comprehensive guides.
+              </p>
+              <ul style={{ listStyle: 'none', marginTop: '1.5rem', fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.7)' }}>
+                <li style={{ padding: '0.4rem 0' }}>• Add up to 150 accounts per iPhone</li>
+                <li style={{ padding: '0.4rem 0' }}>• Connect proxies</li>
+                <li style={{ padding: '0.4rem 0' }}>• Spoof location</li>
               </ul>
             </div>
 
@@ -218,7 +273,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="card reveal" style={{ gridColumn: '1 / -1' }}>
+            <div className="card reveal">
               <div className="card-icon">⚙️</div>
               <h3>General Programming</h3>
               <ul style={{ listStyle: 'none', marginTop: '1rem', fontSize: '0.95rem', color: 'rgba(255, 255, 255, 0.8)' }}>
